@@ -45,7 +45,7 @@ const Signup = () => {
             password : password,
         }
 
-        const apiUrl = "http://localhost:4000/signup";
+        const apiUrl = "https://backend-ai-qo82.onrender.com/signup";
         const options = {
             method : "POST",
             headers :  {

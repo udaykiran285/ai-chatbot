@@ -15,7 +15,7 @@ const Login = () => {
     },[])
 
     const fetchLoginDetails = async () => {
-        const apiUrl = "http://localhost:4000/login"
+        const apiUrl = "https://backend-ai-qo82.onrender.com/login"
         const options = {
             method : "POST",
             headers : {
