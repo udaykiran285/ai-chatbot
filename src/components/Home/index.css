@@ -1,0 +1,82 @@
+.main-home-bg{
+    height:100vh;
+    background-color: black;
+}
+aside{
+    border: 2px solid #EEEEEE;
+    border-radius: 10px;
+}
+main{
+    height:100vh;
+}
+.initial-main{
+    height:80vh;
+    width:100%;
+    border : 2px solid #EEEEEE;
+    border-radius: 10px;
+    padding:1em;
+}
+
+
+.logo-section{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    border: 2px solid #EEEEEE;
+}
+
+.input-main{
+    border:2px solid #EEEEEE;
+    color:#EEEEEE;
+    background-color: black;
+    border-radius: 20px;
+    width:25em;
+    height:3em;
+    padding:1em;
+    margin: 1em;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.main-run-btn{
+    background-color:#01EAF8;
+    color:#EEEEEE;
+    border:0;
+    color:#31363F;
+    font-weight: 600;
+    width:8em;
+    height:2em;
+    border-radius: 3px;
+}
+
+.main-run-btn:hover{
+    background-color: #01EAF8;
+}
+
+.response-text-container{
+    font-weight: 400;
+    overflow-y: scroll;
+    height:80vh;
+    width:100%;
+    border : 2px solid #EEEEEE;
+    border-radius: 10px;
+    padding:1em;
+    p{
+        padding:0;
+        margin: 0;
+    }
+}
+
+.response-text-container::-webkit-scrollbar{
+    width:6px;
+    margin: 10px;
+}
+/* .response-text-container::-webkit-scrollbar-track{
+    background-color: #EEEEEE;
+    border-radius: 10px;
+} */
+.response-text-container::-webkit-scrollbar-thumb {
+    background: #D6CC99; /* color of the scrollbar */
+    border-radius: 5px; /* roundness of the scrollbar */
+    margin:10px
+}
